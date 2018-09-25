@@ -24,7 +24,6 @@ background-size: cover;
 .logo{
 display: flex;
 justify-content: space-between;
-margin: 5px 0px 0  5px;
 padding: 40px 0px 0px 45px;
 }
 
@@ -75,9 +74,25 @@ padding: 0px 0px 120px 0px;
 color:white;
 }
 
+.benefits-range{
+color: white;
+font-size: 13px;
+font-family: AvenirNext, sans-serif;
+font-weight: 100;
+}
+
+.bh2{
+color: white;
+font-size: 20px;
+font-family: AvenirNext, sans-serif;
+font-weight: 400;
+margin: 0px 0px 20px 0px;
+}
+
 .benefits_item{
 padding: 0px 20px 0px 0px;
 width: 260px;
+font-size: 14px;
 }
 
 .benefits-image{
@@ -91,7 +106,7 @@ justify-content: space-between;
 color:white;
 text-decoration: none;
 font-size: 14px;
-margin: 0px 0px 5px 0px;
+margin: 20px 0px 5px 0px;
 }
 
 .about{
@@ -103,8 +118,7 @@ margin:0 auto;
 }
 
 .about__text{
-margin: 20px 20px 20px 20px;
- padding: 30px;
+
 }
 
 .h3{
@@ -127,33 +141,17 @@ height: 394px;
 position: relative;
 }
 
-.image-hover:before{
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  position: relative;
-  z-index:1;
-}
-
-.image_clock1{
-position: absolute;
-top: 0;
-left: 0;
-}
-
 .text-hover{
 position: absolute;
 top: 10px;
 left: 40px;
 color: white;
 text-align: center;
-z-index: 2;
 }
 
 .about__paragraph{
 color: #656e74;
+font-size: 14px;
 }
 
 .link2{
@@ -170,6 +168,8 @@ background: black;
 .form{
 display: flex;
 justify-content: space-between;
+width: 200px;
+padding: 50px 20px 50px 20px;
 }
 
 .input{
@@ -188,8 +188,10 @@ font-size: 15px;
 }
 
 .icon{
+display: flex;
+justify-content: space-between;
 width: 60px;
-height: 60px
+height: 60px;
 display: block;
 border-radius: 50%;
 position: relative;
@@ -208,18 +210,21 @@ left: 30px;
 
 .icon-fb{
 background-color: #003366;
+font-family: AvenirNext;
 }
 
 .icon-tw{
 background-color: blue;
+font-family: AvenirNext;
 }
-
 
 .icon-yt{
 background-color: red;
+font-family: AvenirNext;
 }
 
 .icon-ln{
 background-color: #003366;
+font-family: AvenirNext;
 }
 
