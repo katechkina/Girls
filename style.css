@@ -100,13 +100,23 @@ height: 60px;
 padding: 110px 0px 0px 0px;
 }
 
+.container{
+color: white;
+font-size: 15px;
+font-family: AvenirNext, sans-serif;
+font-weight: 400;
+}
+
+
 .link{
 display: flex;
 justify-content: space-between;
 color:white;
 text-decoration: none;
-font-size: 14px;
 margin: 20px 0px 5px 0px;
+font-size: 15px;
+font-family: AvenirNext, sans-serif;
+font-weight: 400;
 }
 
 .about{
@@ -118,14 +128,17 @@ margin:0 auto;
 }
 
 .about__text{
-
+font-family: AvenirNext, sans-serif;
+font-weight: 300;	
 }
+
 
 .h3{
 color:#fd634e;
 text-transform: uppercase;
 font-size: 14px;
 margin:0 auto;
+padding: 40px 10px 5px 10px;
 }
 
 .h2{
@@ -133,6 +146,7 @@ color:#a2ca28;
 text-transform: uppercase;
 font-size: 35px;
 margin:0 auto;
+padding: 5px 10px 10px 10px;
 }
 
 .image_hover{
@@ -152,6 +166,7 @@ text-align: center;
 .about__paragraph{
 color: #656e74;
 font-size: 14px;
+padding: 20px 40px 10px 40px;
 }
 
 .link2{
@@ -159,6 +174,7 @@ color:#a2ca28;
 text-decoration: underline;
 font-size: 14px;
 margin:0 auto;
+padding: 10px 0px 0px 0px;
 }
 
 .footer{
@@ -188,43 +204,69 @@ font-size: 15px;
 }
 
 .icon{
+width: 50px;
+height: 50px;
 display: flex;
 justify-content: space-between;
-width: 60px;
-height: 60px;
-display: block;
 border-radius: 50%;
 position: relative;
+text-align: center;
+font-family: AvenirNext;
 }
 
 .icon:before{
 content: '';
 display:block;
-background-size: 20px 20px;
-width: 20px;
-height: 20px;
 position: absolute;
-top: 20px;
-left: 30px;
+top: 15px;
+left: 15px;
 }
 
 .icon-fb{
 background-color: #003366;
-font-family: AvenirNext;
+}
+
+.icon-fb:before{
+background: url('./images/fb.png');
+background-size: 20px 20px;
+width: 20px;
+height: 20px;
+
 }
 
 .icon-tw{
 background-color: blue;
-font-family: AvenirNext;
+}
+
+.icon-tw:before{
+background: url('./images/tw.png');
+background-size: 20px 20px;
+width: 20px;
+height: 20px;
+
 }
 
 .icon-yt{
 background-color: red;
-font-family: AvenirNext;
+}
+
+.icon-yt:before{
+background: url('./images/yt.png');
+background-size: 20px 20px;
+width: 20px;
+height: 20px;
+
 }
 
 .icon-ln{
 background-color: #003366;
-font-family: AvenirNext;
+}
+
+.icon-ln:before{
+background: url('./images/ln.png');
+background-size: 20px 20px;
+width: 20px;
+height: 20px;
+
 }
 
